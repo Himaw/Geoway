@@ -6,9 +6,9 @@ import { useInView } from "react-intersection-observer";
 
 import { GiArchiveResearch } from "react-icons/gi";
 import { MdAssessment, MdOutlineSupportAgent, MdPolicy } from "react-icons/md";
-import { GrCapacity, GrStakeholder } from "react-icons/gr";
 import { RiChatSettingsFill, RiCustomerService2Line } from "react-icons/ri";
 import { IoDocumentsSharp } from "react-icons/io5";
+import { FaPeopleCarryBox, FaUsersGear } from "react-icons/fa6";
 
 const Services = () => {
   const [ref, inView] = useInView({ triggerOnce: false });
@@ -82,7 +82,7 @@ const Services = () => {
                   </p>
                 </li>
                 <li className="rounded-xl outline-2 px-6 py-8 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.1)]">
-                  <GrCapacity className="mx-auto h-10 w-10 text-green-50" />
+                  <FaUsersGear className="mx-auto h-10 w-10 text-green-50" />
 
                   <h3 className="my-3 font-display font-medium">
                     Capacity Development
@@ -142,7 +142,7 @@ const Services = () => {
                 </li>
                 <li className="rounded-xl bg-white px-6 py-8 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.1)]">
                   <a href="/download" className="group">
-                    <GrStakeholder className="mx-auto h-10 w-10 text-green-50" />
+                    <FaPeopleCarryBox className="mx-auto h-10 w-10 text-green-50" />
 
                     <h3 className="my-3 font-display font-medium group-hover:text-primary-500">
                       Stakeholder Engagement
