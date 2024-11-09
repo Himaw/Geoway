@@ -1,9 +1,11 @@
 "use client";
 import { FEATURES } from "@/constants";
 import Image from "next/image";
-import { HiCalendarDays } from "react-icons/hi2";
-import { HiLocationMarker, HiVolumeUp } from "react-icons/hi";
-import { LuWifiOff } from "react-icons/lu";
+import { MdPermIdentity } from "react-icons/md";
+import { FaBuildingNgo } from "react-icons/fa6";
+import { LiaConnectdevelop } from "react-icons/lia";
+
+import { RiGovernmentLine } from "react-icons/ri";
 
 import { motion } from "framer-motion";
 import { fadeIn } from "@/animation/variants";
@@ -22,28 +24,31 @@ const Features = () => {
     >
       <section
         ref={ref}
-        className="container flex-col flexCenter overflow-hidden bg-feature-bg bg-center bg-no-repeat py-24"
+        className="container flex-col flexCenter overflow-hidden bg-feature-bg bg-center bg-no-repeat my-24"
       >
         <div className="maxContainer relative flex w-full justify-end">
-          <div className="flex flex-1 lg:min-h-[900px]">
+          <div className="flex flex-1 lg:min-h-[700px]">
             <Image
-              src="/phone.png"
+              src="/sustainability.png"
               alt="Phone"
               width={440}
               height={1000}
-              className="feature-phone"
+              className="feature-phone rounded-2xl object-cover object-center mx-5"
             />
           </div>
 
           <div className="z-20 flex w-full flex-col lg:w-[60%]">
-            <h2 className="bold-32 lg:bold-64">Funcionalidades</h2>
+            <h2 className="bold-32 lg:bold-64">Our Clients</h2>
             <motion.div
               variants={fadeIn("right", 0)}
               initial="hidden"
               animate={inViewFeatures ? "show" : "hidden"}
               exit="hidden"
             >
-              <ul ref={refFeatures} className="mt-10 grid gap-10 md:grid-cols-2 lg:mt-20 lg:gap-20">
+              <ul
+                ref={refFeatures}
+                className="mt-10 grid gap-10 md:grid-cols-2 lg:mt-20 lg:gap-20"
+              >
                 {FEATURES.map((feature) => (
                   <FeatureItem
                     title={feature.title}
@@ -68,10 +73,10 @@ interface FeatureItemProps {
 }
 
 const iconMap: { [key: string]: JSX.Element } = {
-  LuWifiOff: <LuWifiOff size={28} />,
-  HiCalendarDays: <HiCalendarDays size={28} />,
-  HiVolumeUp: <HiVolumeUp size={28} />,
-  HiLocationMarker: <HiLocationMarker size={28} />,
+  RiGovernmentLine: <RiGovernmentLine size={28} />,
+  MdPermIdentity: <MdPermIdentity size={28} />,
+  FaBuildingNgo: <FaBuildingNgo size={28} />,
+  LiaConnectdevelop: <LiaConnectdevelop size={28} />,
 };
 
 const FeatureItem = ({ title, icon, description }: FeatureItemProps) => {

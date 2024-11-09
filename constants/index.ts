@@ -1,10 +1,11 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: "/", key: "home", label: "Home" },
-  { href: "/", key: "about", label: "Sobre o Geoway" },
-  { href: "/", key: "services", label: "Serviços" },
-  { href: "/", key: "pricing ", label: "Preços" },
-  { href: "/", key: "contact", label: "Contato" },
+  { href: "/", key: "ourMission", label: "Our Mission" },
+  { href: "/", key: "services", label: "Services" },
+  { href: "/", key: "projects", label: "Projects" },
+  { href: "/", key: "ourClients", label: "Our Clients" },
+  { href: "/", key: "ourTeam", label: "Our Team" },
 ];
 
 // CAMP SECTION
@@ -18,32 +19,32 @@ export const PEOPLE_URL = [
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: "Mapas Disponíveis 24 Horas por Dia",
-    icon: "LuWifiOff",
+    title: "Government",
+    icon: "RiGovernmentLine",
     variant: "green",
     description:
-      "Na Geoway, acreditamos que nossos usuários merecem o melhor. Por isso, nossos mapas estão sempre disponíveis, 24 horas por dia, 7 dias por semana, mesmo em locais sem internet.",
+      "Partnering with cities, companies, and NGOs to provide strategic insights and innovative solutions.",
   },
   {
-    title: "Crie Planos de Aventura",
-    icon: "HiCalendarDays",
+    title: "Private Entities",
+    icon: "MdPermIdentity",
     variant: "green",
     description:
-      "Elabore emocionantes aventuras com seus familiares e amigos e aproveite ofertas especiais em pacotes personalizados. Desfrute de suas aventuras sem preocupações com a Geoway.",
+      "Collaborating with companies like Coca-Cola to design sustainable products, supply chains, and sectors.",
   },
   {
-    title: "Navegação por comandos de voz",
-    icon: "HiVolumeUp",
+    title: "INGOs",
+    icon: "FaBuildingNgo",
     variant: "green",
     description:
-      "Desfrute de orientações por voz enquanto explora, garantindo que você nunca se perca durante suas emocionantes aventuras. A tranquilidade de ter um guia confiável a cada passo do caminho.",
+      "We partner with international NGOs to develop solutions for global environmental challenges, driving impactful change for a more sustainable planet.",
   },
   {
-    title: "Descubra Novos Destinos",
-    icon: "HiLocationMarker",
+    title: "Development Partners",
+    icon: "LiaConnectdevelop",
     variant: "laranja",
     description:
-      "Explore uma diversidade de novos destinos emocionantes que são acrescentados mensalmente. Estamos constantemente buscando a excelência para sua próxima aventura.",
+      "Supporting embassies and development partners in implementing sustainable initiatives.",
   },
 ];
 

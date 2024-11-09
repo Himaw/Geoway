@@ -20,7 +20,7 @@ const CampSite = ({
   return (
     <div className="flexCenter md:container relative w-full h-[25rem] md:h-[40rem] ">
       <div
-        className={`swiper-slide w-full md:w-[80rem] h-[25rem] object-cover object-center md:rounded-2xl  ${bgImage} bg-no-repeat `}
+        className={`swiper-slide w-full md:w-[10rem] h-[25rem] object-cover object-center md:rounded-2xl  ${bgImage} bg-cover bg-center bg-no-repeat`}
       >
         <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10">
           <div className="flexCenter bg-gray-1 rounded-full pr-10">

@@ -17,21 +17,19 @@ const Guide = () => {
       exit="hidden"
     >
       <section ref={ref} className="flexCenter flex-col mt-10">
-        <div className=" padding-container container w-full pb-24">
+        <div className=" padding-container container w-full pb-16">
           <p className="uppercase regular-18 mb-3 text-green-50">
-            Nós estamos aqui por você
+            We prioratize sustainability
           </p>
 
           <div className="flex flex-wrap justify-between gap-5 lg:gap-10">
-            <h2 className="bold-40 lg:bold-64 xl:max-w-[390px]">
-              Navegação Descomplicada
-            </h2>
+            <h2 className="bold-40 lg:bold-64 xl:max-w-[350px]">Our Mission</h2>
             <p className="regular-16 text-gray-30 xl:max-w-[520px]">
-              Com o Geoway, você estará sempre no caminho certo, graças ao nosso
-              suporte para mapas offline quando você estiver desconectado da
-              internet. Convide amigos, familiares e colegas para desfrutar da
-              natureza, explorando vales pitorescos e atingindo o pico das
-              montanhas.
+              Our mission is to drive the transition to a circular, equitable,
+              and net-zero world with tailored solutions. By minimizing waste,
+              promoting resource efficiency, and ensuring fairness, we foster
+              sustainable growth and carbon neutrality through innovation and
+              collaboration.
             </p>
           </div>
         </div>
@@ -42,7 +40,10 @@ const Guide = () => {
           animate={inViewImage ? "show" : "hidden"}
           exit="hidden"
         >
-          <div ref={refImage} className="flexCenter md:container relative w-full">
+          <div
+            ref={refImage}
+            className="flexCenter md:container relative w-full"
+          >
             <Image
               src="/img-5.png"
               alt="Guide"

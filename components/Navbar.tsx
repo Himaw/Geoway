@@ -2,7 +2,7 @@ import { NAV_LINKS } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
 import Button from "./common/Button";
-import { LuUser2, LuMenu } from "react-icons/lu";
+import { LuMenu } from "react-icons/lu";
 
 import {
   Sheet,
@@ -20,12 +20,12 @@ const Navbar = () => {
       <nav className="flexBetween container padding-container relative z-30 py-5">
         <Link href="/">
           <Image
-            src="/logo.png"
-            alt="Geoway"
+            src="/logo1.png"
+            alt="Connect2p"
             width={0}
             height={0}
             sizes="100vw"
-            className="w-28 h-auto"
+            className="w-60 h-auto"
           />
         </Link>
 
@@ -42,12 +42,7 @@ const Navbar = () => {
         </ul>
 
         <div className="lg:flexCenter hidden">
-          <Button
-            type="button"
-            title="Login"
-            icon_start={<LuUser2 size={20} />}
-            variant="btn_dark"
-          />
+          <Button type="button" title="Contact Us" variant="btn_dark" />
         </div>
 
         <div className="inline-block cursor-pointer lg:hidden">
@@ -61,8 +56,7 @@ const Navbar = () => {
                 <div className="py-4">
                   <Button
                     type="button"
-                    title="Login"
-                    icon_start={<LuUser2 size={20} />}
+                    title="Contact Us"
                     variant="btn_dark_mobile"
                   />
                 </div>

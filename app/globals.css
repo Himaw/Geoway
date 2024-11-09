@@ -129,12 +129,12 @@
 
   /* Feature */
   .feature-phone {
-    @apply absolute top-[13%] z-10 hidden max-w-[1000px] h-auto px-5 rotate-[8deg] md:-left-16 lg:flex  3xl:left-20;
+    @apply z-10 hidden max-w-[1000px] h-auto  rotate-[0deg] md:-left-16 lg:flex  3xl:left-20;
   }
 
   /* Get App */
   .get-app {
-    @apply maxContainer relative flex w-full  flex-col justify-between gap-32 overflow-hidden bg-green-90 bg-pattern bg-cover bg-center bg-no-repeat px-6 py-12 text-white sm:flex-row sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[598px] 2xl:rounded-5xl;
+    @apply maxContainer relative flex w-full  flex-col justify-between gap-32 overflow-hidden bg-green-90 bg-pattern bg-cover bg-center bg-no-repeat px-6 py-12 text-black sm:flex-row sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[598px] 2xl:rounded-5xl;
   }
 }
 
@@ -220,7 +220,6 @@
   body {
     @apply bg-background text-foreground;
   }
-
 
   .swiper .swiper-button-prev,
   .swiper .swiper-button-next {

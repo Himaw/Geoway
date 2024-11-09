@@ -26,12 +26,12 @@ const Footer = () => {
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
           <Link href="/" className="mb-10">
             <Image
-              src="/logo.png"
-              alt="Geoway"
+              src="/logo1.png"
+              alt="Connect2p"
               width={0}
               height={0}
               sizes="100vw"
-              className="w-28 h-auto"
+              className="w-60 h-auto"
             />
           </Link>
 
@@ -73,14 +73,13 @@ const Footer = () => {
         <div className="border bg-gray-20" />
 
         <p className="regular-14 w-full text-center text-gray-30">
-          &copy; {currentYear} Geoway | Todos os direitos reservados. - Criado
-          por{" "}
+          &copy; {currentYear} Developed by Impressions |{" "}
           <Link
             className="transition-all duration-300 hover:text-green-50 hover:font-bold"
-            href="https://www.linkedin.com/in/gui-bus/"
+            href="https://www.himasara.info/"
             target="_blank"
           >
-            Guilherme Bustamante
+            Click here for inquiries
           </Link>
           .
         </p>
