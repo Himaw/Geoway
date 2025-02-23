@@ -20,6 +20,7 @@ const GetApp = () => {
     >
       <section
         ref={ref}
+        id="contact-us"
         className="flexCenter w-full flex-col pb-10 xl:pb-28 mt-10 xl:mt-28 relative"
       >
         <motion.div

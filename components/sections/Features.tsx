@@ -24,6 +24,7 @@ const Features = () => {
     >
       <section
         ref={ref}
+        id="our-clients"
         className="container flex-col flexCenter overflow-hidden bg-feature-bg bg-center bg-no-repeat my-24"
       >
         <div className="maxContainer relative flex w-full justify-end">

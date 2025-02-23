@@ -23,7 +23,7 @@ const CampSite = ({
         className={`swiper-slide w-full md:w-[10rem] h-[25rem] object-cover object-center md:rounded-2xl  ${bgImage} bg-cover bg-center bg-no-repeat`}
       >
         <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10">
-          <div className="flexCenter bg-gray-1 rounded-full pr-10">
+          {/* <div className="flexCenter bg-gray-1 rounded-full pr-10">
             <div className="rounded-full bg-gray-1 p-3">
               <HiMap
                 size={48}
@@ -37,9 +37,9 @@ const CampSite = ({
               </h4>
               <p className="regular-14 text-white">{subtitle}</p>
             </div>
-          </div>
+          </div> */}
 
-          <div className="flexCenter gap-6">
+          {/* <div className="flexCenter gap-6">
             <span className="flex -space-x-4 overflow-hidden">
               {PEOPLE_URL.map((url) => (
                 <Image
@@ -54,7 +54,7 @@ const CampSite = ({
               ))}
             </span>
             <p className="bold-16 md:bold-20 text-white">{peopleJoined}</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

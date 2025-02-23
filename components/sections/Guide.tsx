@@ -16,10 +16,10 @@ const Guide = () => {
       animate={inView ? "show" : "hidden"}
       exit="hidden"
     >
-      <section ref={ref} className="flexCenter flex-col mt-10">
+      <section ref={ref} id="our-mission" className="flexCenter flex-col mt-10">
         <div className=" padding-container container w-full pb-16">
           <p className="uppercase regular-18 mb-3 text-green-50">
-            We prioratize sustainability
+            We Prioritise Sustainable Transitions
           </p>
 
           <div className="flex flex-wrap justify-between gap-5 lg:gap-10">
@@ -52,7 +52,7 @@ const Guide = () => {
               className="w-full lg:w-[80rem] h-[25rem] object-cover object-center md:rounded-2xl"
             />
 
-            <div className="absolute flex bg-white py-8 pl-5 pr-7 gap-3 rounded-3xl border shadow-lg md:left-[5%] lg:top-20">
+            {/* <div className="absolute flex bg-white py-8 pl-5 pr-7 gap-3 rounded-3xl border shadow-lg md:left-[5%] lg:top-20">
               <Image
                 src="/meter.svg"
                 alt="Meter"
@@ -74,7 +74,7 @@ const Guide = () => {
                   <h4 className="bold-20 whitespace-nowrap">Puerta del Sol</h4>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </motion.div>
       </section>

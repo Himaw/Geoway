@@ -22,7 +22,8 @@ const Hero = () => {
     >
       <section
         ref={ref}
-        className="container flex flex-col gap-20 py-10 md:gap-28 lg:py-20 xl:flex-row"
+        id="home"
+        className="container flex flex-col gap-20 py-10 md:gap-28 lg:py-20 xl:flex-row mt-24"
       >
         <div className="hero-map" />
 
@@ -31,14 +32,10 @@ const Hero = () => {
           className="relative z-20 flex flex-1 flex-col xl:w-1/2"
         >
           <h1 className="bold-52 lg:bold-64 xl:whitespace-nowrap tracking-tighter">
-            Equity. Balance.
+            Projects People and Impact
           </h1>
           <p className="regular-16 mt-6 text-gray-30 xl:max-w-[32.5rem]">
-            A sustainable future is driven by innovative solutions that promote
-            global equity and environmental balance. This vision integrates
-            technological advancements with social and environmental progress,
-            ensuring resources are managed fairly and ecosystems are preserved
-            for future generations.
+            Connecting People and Projects for Sustainable Impact
           </p>
 
           <div className="my-11 flex flex-wrap gap-5">
@@ -48,29 +45,50 @@ const Hero = () => {
                 .map((_, index) => (
                   <HiStar key={index} size={24} className="text-yellow-400" />
                 ))}
-            </div> */}
+            </div>
 
             <p className="bold-16 lg:bold-20 text-amber-500">
               +1k
               <span className="regular-16 lg:regular-20 text-gray-1 ml-2">
                 Clients Worldwide
               </span>
-            </p>
+            </p> */}
           </div>
 
           <div className="flex flex-col w-full gap-3 sm:flex-row">
-            <Button type="button" title="Services" variant="btn_dark" />
-
+            <Button
+              type="button"
+              title="Services"
+              variant="btn_dark"
+              onClick={() => {
+                const servicesSection = document.getElementById("services");
+                if (servicesSection) {
+                  const offsetTop =
+                    servicesSection.getBoundingClientRect().top +
+                    window.scrollY;
+                  window.scrollTo({ top: offsetTop, behavior: "smooth" });
+                }
+              }}
+            />
             <Button
               type="button"
               title="Learn More?"
               variant="btn_white_text"
               icon_start={<HiPlay size={32} className="text-green-600" />}
+              onClick={() => {
+                const learnMoreSection = document.getElementById("our-mission");
+                if (learnMoreSection) {
+                  const offsetTop =
+                    learnMoreSection.getBoundingClientRect().top +
+                    window.scrollY;
+                  window.scrollTo({ top: offsetTop, behavior: "smooth" });
+                }
+              }}
             />
           </div>
         </div>
 
-        <div ref={refMap} className="relative flex flex-1 items-start">
+        {/* <div ref={refMap} className="relative flex flex-1 items-start">
           <div className="relative z-20 flex w-[16.75rem] flex-col gap-8 rounded-3xl bg-gray-1 px-7 py-8 mt-5">
             <div className="flex flex-col">
               <div className="flexBetween">
@@ -92,7 +110,7 @@ const Hero = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
     </motion.div>
   );

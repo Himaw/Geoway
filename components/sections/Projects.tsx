@@ -16,7 +16,7 @@ const Projects = () => {
       animate={inView ? "show" : "hidden"}
       exit="hidden"
     >
-      <section ref={ref} className="flexCenter flex-col mt-16">
+      <section ref={ref} id="projects" className="flexCenter flex-col mt-16">
         <div className=" padding-container container w-full ">
           <p className="uppercase regular-18 mb-3 text-green-50">
             We prioratize quality
