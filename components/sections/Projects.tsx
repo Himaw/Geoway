@@ -19,7 +19,7 @@ const Projects = () => {
       <section ref={ref} id="projects" className="flexCenter flex-col mt-16">
         <div className=" padding-container container w-full ">
           <p className="uppercase regular-18 mb-3 text-green-50">
-            We prioratize quality
+            We prioritize quality
           </p>
 
           <div className="flex flex-wrap justify-between gap-5 lg:gap-10">

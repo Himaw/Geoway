@@ -32,7 +32,7 @@ const Hero = () => {
           className="relative z-20 flex flex-1 flex-col xl:w-1/2"
         >
           <h1 className="bold-52 lg:bold-64 xl:whitespace-nowrap tracking-tighter">
-            Projects People and Impact
+            People Projects and Impact
           </h1>
           <p className="regular-16 mt-6 text-gray-30 xl:max-w-[32.5rem]">
             Connecting People and Projects for Sustainable Impact

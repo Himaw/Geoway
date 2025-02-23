@@ -23,9 +23,9 @@ const Services = () => {
     >
       <section ref={ref} id="services" className="flexCenter flex-col mt-16">
         <div className=" padding-container container w-full ">
-          <p className="uppercase regular-18 mb-3 text-green-50">
-            We provide vatious services
-          </p>
+          {/* <p className="uppercase regular-18 mb-3 text-green-50">
+            We provide various services
+          </p> */}
 
           <div className="flex flex-wrap justify-between gap-5 lg:gap-10">
             <h2 className="bold-40 lg:bold-64 xl:max-w-[500px]">
