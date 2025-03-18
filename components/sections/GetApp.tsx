@@ -34,8 +34,8 @@ const GetApp = () => {
             <div className="z-20 flex w-full flex-1 flex-col items-start justify-center gap-12">
               <h2 className="bold-40 l:bold-64 xl:max-w-[320px]">Contact Us</h2>
               <p className="regular-16 text-gray-30">
-                Disponível para dispositivos iOS e Android para que você possa
-                se conectar com a gente a qualquer hora e em qualquer lugar.
+                Please don't hesitate to contact us. Our support team will get
+                back to you in 48 hours during standard business hours.
               </p>
 
               <div className="flex w-full flex-col gap-3 whitespace-nowrap xl:flex-row">
@@ -44,6 +44,9 @@ const GetApp = () => {
                   title="Send us a message"
                   icon_start={<IoMail size={28} />}
                   variant="btn_dark_green_outline"
+                  onClick={() =>
+                    (window.location.href = "mailto:Connect2P@gmail.com")
+                  }
                 />
               </div>
             </div>

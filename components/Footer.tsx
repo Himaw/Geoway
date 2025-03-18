@@ -39,15 +39,19 @@ const Footer = () => {
             {FOOTER_LINKS.map((columns) => (
               <FooterColumn title={columns.title} key={columns.title}>
                 <ul className="regular-14 flex flex-col gap-4 text-gray-30">
-                  {columns.links.map((link) => (
-                    <Link
-                      href="/"
-                      key={link}
-                      className="transition-all duration-300 hover:text-green-50 hover:font-bold"
-                    >
-                      {link}
-                    </Link>
-                  ))}
+                  {columns.links.map((link) =>
+                    !link.disabled ? (
+                      <Link
+                        href={"href" in link ? link.href : ""}
+                        key={link.text}
+                        className="transition-all duration-300 hover:text-green-50 hover:font-bold"
+                      >
+                        {link.text}
+                      </Link>
+                    ) : (
+                      <span>{link.text}</span>
+                    )
+                  )}
                 </ul>
               </FooterColumn>
             ))}

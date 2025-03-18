@@ -47,7 +47,7 @@ const Services = () => {
             <div id="features" className="mx-auto max-w-7xl">
               <ul className="mt-16 grid grid-cols-1 gap-6 text-center text-slate-700 md:grid-cols-3">
                 <li className="rounded-xl outline-2 px-6 py-8 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.1)]">
-                  <GiArchiveResearch className="mx-auto h-10 w-10 text-green-50" />
+                  <GiArchiveResearch className="mx-auto h-16 w-16 text-green-50" />
 
                   <h3 className="my-3 font-display font-medium">
                     Research & Data Development
@@ -58,7 +58,7 @@ const Services = () => {
                   </p>
                 </li>
                 <li className="rounded-xl bg-white px-6 py-8 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.1)]">
-                  <MdOutlineSupportAgent className="mx-auto h-10 w-10 text-green-50" />
+                  <MdOutlineSupportAgent className="mx-auto h-16 w-16 text-green-50" />
 
                   <h3 className="my-3 font-display font-medium">
                     Project Development Support
@@ -70,7 +70,7 @@ const Services = () => {
                   </p>
                 </li>
                 <li className="rounded-xl bg-white px-6 py-8 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.1)]">
-                  <MdPolicy className="mx-auto h-10 w-10 text-green-50" />
+                  <MdPolicy className="mx-auto h-16 w-16 text-green-50" />
 
                   <h3 className="my-3 font-display font-medium">
                     Policy Development
@@ -82,7 +82,7 @@ const Services = () => {
                   </p>
                 </li>
                 <li className="rounded-xl outline-2 px-6 py-8 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.1)]">
-                  <FaUsersGear className="mx-auto h-10 w-10 text-green-50" />
+                  <FaUsersGear className="mx-auto h-16 w-16 text-green-50" />
 
                   <h3 className="my-3 font-display font-medium">
                     Capacity Development
@@ -93,7 +93,7 @@ const Services = () => {
                   </p>
                 </li>
                 <li className="rounded-xl bg-white px-6 py-8 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.1)]">
-                  <RiChatSettingsFill className="mx-auto h-10 w-10 text-green-50" />
+                  <RiChatSettingsFill className="mx-auto h-16 w-16 text-green-50" />
 
                   <h3 className="my-3 font-display font-medium">
                     Strategic Advisory Services
@@ -104,7 +104,7 @@ const Services = () => {
                   </p>
                 </li>
                 <li className="rounded-xl bg-white px-6 py-8 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.1)]">
-                  <RiCustomerService2Line className="mx-auto h-10 w-10 text-green-50" />
+                  <RiCustomerService2Line className="mx-auto h-16 w-16 text-green-50" />
 
                   <h3 className="my-3 font-display font-medium">
                     Expert Review & Technical Assistance{" "}
@@ -116,7 +116,7 @@ const Services = () => {
                 </li>
                 <li className="rounded-xl bg-white px-6 py-8 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.1)]">
                   <a href="/pricing" className="group">
-                    <IoDocumentsSharp className="mx-auto h-10 w-10 text-green-50" />
+                    <IoDocumentsSharp className="mx-auto h-16 w-16 text-green-50" />
 
                     <h3 className="my-3 font-display font-medium group-hover:text-primary-500">
                       Knowledge Materials Development
@@ -129,7 +129,7 @@ const Services = () => {
                 </li>
                 <li className="rounded-xl bg-white px-6 py-8 shadow-[0_35px_60px_-15px_rgba(0,0.9,0,0.1)]">
                   <a href="/templates" className="group">
-                    <MdAssessment className="mx-auto h-10 w-10 text-green-50" />
+                    <MdAssessment className="mx-auto h-16 w-16 text-green-50" />
 
                     <h3 className="my-3 font-display font-medium group-hover:text-primary-500">
                       Baseline Assessment{" "}
@@ -142,7 +142,7 @@ const Services = () => {
                 </li>
                 <li className="rounded-xl bg-white px-6 py-8 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.1)]">
                   <a href="/download" className="group">
-                    <FaPeopleCarryBox className="mx-auto h-10 w-10 text-green-50" />
+                    <FaPeopleCarryBox className="mx-auto h-16 w-16 text-green-50" />
 
                     <h3 className="my-3 font-display font-medium group-hover:text-primary-500">
                       Stakeholder Engagement

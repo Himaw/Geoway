@@ -3,9 +3,9 @@ export const NAV_LINKS = [
   { href: "/", key: "home", label: "Home" },
   { href: "/", key: "our-mission", label: "Our Mission" },
   { href: "/", key: "services", label: "Services" },
+  { href: "/", key: "thematic-focus", label: "Thematic Focus" },
   { href: "/", key: "projects", label: "Projects" },
   { href: "/", key: "our-clients", label: "Our Clients" },
-  { href: "/", key: "our-team", label: "Our Team" },
 ];
 
 // CAMP SECTION
@@ -51,33 +51,22 @@ export const FEATURES = [
 // FOOTER SECTION
 export const FOOTER_LINKS = [
   {
-    title: "Institucional",
+    title: "Resources",
+    links: [{ text: "Resource 1", href: "/", disabled: false }],
+  },
+
+  {
+    title: "Legal",
     links: [
-      "Sobre a Geoway",
-      "Trabalhe Conosco",
-      "Contato",
-      "Missão e Valores",
-      "Equipe Geoway",
+      { text: "Privacy Policy", href: "/", disabled: false },
+      { text: "Terms of Service", href: "/", disabled: false },
     ],
   },
   {
-    title: "Dúvidas Gerais",
+    title: "Contact",
     links: [
-      "Funcionamento do App",
-      "Formas de Pagamento",
-      "FAQ",
-      "Garantia de Qualidade",
-      "Política de Devolução",
-    ],
-  },
-  {
-    title: "Suporte",
-    links: [
-      "Contato de Suporte",
-      "Guia do Usuário",
-      "Problemas Técnicos",
-      "Central de Ajuda",
-      "Chat ao Vivo",
+      { text: "Email: Connect2P@gmail.com", href: "/", disabled: true },
+      { text: "Phone: +856 20 58 734 549", href: "/", disabled: true },
     ],
   },
 ];

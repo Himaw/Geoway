@@ -5,6 +5,7 @@ import Guide from "@/components/sections/Guide";
 import Hero from "@/components/sections/Hero";
 import Projects from "@/components/sections/Projects";
 import Services from "@/components/sections/Services";
+import ThematicFocus from "@/components/sections/ThematicFocus";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Camp />
       <Guide />
       <Services />
+      <ThematicFocus />
       <Projects />
       <Features />
       <GetApp />
